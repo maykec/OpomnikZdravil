@@ -73,7 +73,7 @@ class ReminderService : Service() {
                             intent.putExtra("meds_name", data.child("medsName").value.toString())
                             val alarmIntent = PendingIntent.getBroadcast(baseContext, 0, intent,0)
 
-                            alarmManager?.setRepeating(
+                            alarmManager?.setInexactRepeating(
                                 AlarmManager.RTC_WAKEUP,
                                 calendar.timeInMillis,
                                 AlarmManager.INTERVAL_DAY,
