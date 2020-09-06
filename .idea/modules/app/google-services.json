@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "398348187157",
+    "firebase_url": "https://opomnikzdravil.firebaseio.com",
+    "project_id": "opomnikzdravil",
+    "storage_bucket": "opomnikzdravil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398348187157:android:c3fa16cdcdff1cec93001c",
+        "android_client_info": {
+          "package_name": "com.maykec.opomnik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398348187157-vo174e4136elq0arbmn9k172273ehsml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maykec.opomnik",
+            "certificate_hash": "d56803ee839b55a6e1841a3883f5b26d9f687f3b"
+          }
+        },
+        {
+          "client_id": "398348187157-vbub8sip1h92s6cm81o281965mt7v8pt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maykec.opomnik",
+            "certificate_hash": "a99b16fed769104603106dafea21538df5d5af4b"
+          }
+        },
+        {
+          "client_id": "398348187157-2agrbsqdlqarls2pqbijddl1qp1o5hj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBerKeO80huyG0i_p8MW2kz_i7ohHm5y9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398348187157-2agrbsqdlqarls2pqbijddl1qp1o5hj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398348187157:android:4dcedc1110bc267193001c",
+        "android_client_info": {
+          "package_name": "com.maykec.opomnikzdravil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398348187157-rfh7mshs0nepkm2bhn8tpeejeno1d7l6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maykec.opomnikzdravil",
+            "certificate_hash": "d56803ee839b55a6e1841a3883f5b26d9f687f3b"
+          }
+        },
+        {
+          "client_id": "398348187157-2agrbsqdlqarls2pqbijddl1qp1o5hj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBerKeO80huyG0i_p8MW2kz_i7ohHm5y9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398348187157-2agrbsqdlqarls2pqbijddl1qp1o5hj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
