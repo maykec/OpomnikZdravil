@@ -76,7 +76,7 @@ class ReminderService : Service() {
                             alarmManager?.setRepeating(
                                 AlarmManager.RTC_WAKEUP,
                                 calendar.timeInMillis,
-                                1000 * 60 * 20,
+                                AlarmManager.INTERVAL_DAY,
                                 alarmIntent
                             )
 

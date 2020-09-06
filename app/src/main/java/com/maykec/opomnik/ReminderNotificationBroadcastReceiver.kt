@@ -3,6 +3,7 @@ package com.maykec.opomnik
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
+import android.util.Log
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 
@@ -15,6 +16,7 @@ class ReminderNotificationBroadcastReceiver : BroadcastReceiver() {
         } else {
             alarmTitle = "can not get extras"
         }
+        Log.d("ReminderNotification", "Alarm fired: " + alarmTitle)
         val channelId = "${context?.packageName}-${context?.getString(R.string.app_name)}"
         val notificationBuilder = NotificationCompat.Builder(context!!, channelId).apply {
             setSmallIcon(R.drawable.ic_launcher_background)
