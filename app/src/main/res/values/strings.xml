@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">OpomnikZdravil</string>
+
+<!--    buttons-->
+    <string name="confirm_notification">Potrdi prejem zdravila</string>
 </resources>

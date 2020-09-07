@@ -1,4 +1,4 @@
-package com.maykec.opomnik
+package com.maykec.opomnik.notification
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
