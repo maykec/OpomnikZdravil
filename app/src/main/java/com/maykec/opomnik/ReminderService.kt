@@ -1,5 +1,6 @@
 package com.maykec.opomnik
 
+import android.annotation.SuppressLint
 import android.app.AlarmManager
 import android.app.NotificationManager
 import android.app.PendingIntent
@@ -54,6 +55,7 @@ class ReminderService : Service() {
                 Log.d(TAG, "onCancelled")
             }
 
+            @SuppressLint("NewApi")
             override fun onDataChange(snapshot: DataSnapshot) {
                 if (snapshot.exists()) {
                     for (data in snapshot.children) {
